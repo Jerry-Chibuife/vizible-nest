@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+//    "target": "esnext",
+    "module": "commonjs",
+    "types": ["node", "express"],
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "esnext",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "include": ["**/*.ts", "**/*.tsx", "**/*.d.ts"],
+    "files": ["src/main.ts", "src/nest-env.d.ts"]
+  }
+}
